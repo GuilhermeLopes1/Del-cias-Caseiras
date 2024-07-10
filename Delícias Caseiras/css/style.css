@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Tags Globais */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+h1, h2 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.limitar-largura {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(145, 83, 1));
+}
+
+
+
+@media (max-width: 1350px) {
+    .informacoes {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* topo */
+
+.secao-topo {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+ /* conteudo */
+
+.secao-conteudo {
+    position: relative;
+    top: 50px;
+}
+
+.receita-1 h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 100px;
+}
+
+.img-receita-pronta {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.img-receita-pronta img {
+    width: 80%;
+}
+
+.receita-1 h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.receita-1 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.receita-1 span {
+    font-size: 25px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.receita-1 p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 60px;
+    text-align: justify;
+    line-height: 40px;
+}
+.ingredientes {
+    border-top: 2px solid rgb(0, 0, 0);
+}
+.ingredientes h2 {
+    margin-top: 60px;
+}
+.ingredientes ul {
+    list-style-type: none;
+    width: 60%;
+    margin: 0 auto;
+}
+.ingredientes p {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: normal;
+}
+
+/* Modo de Preparo */
+
+.modo-preparo {
+    border-top: 2px solid rgb(0, 0, 0);
+}
+.modo-preparo h2 {
+    margin-top: 60px;
+}
+.modo-preparo li {
+    font-size: 35px;
+}
+.modo-preparo p {
+    font-weight: normal;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.texto-footer {
+    text-align: center;
+    padding: 30px;
+}
+.texto-footer p {
+    color: white;
+}
+
+@media (max-width: 712px) {
+    .lista-ingredientes p {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 711px){
+    .imagem-topo img {
+        width: 250px;
+    }
+    .receita-1 h1 {
+        font-size: 25px;
+    }
+    .receita-1 h2 {
+        font-size: 23px;
+    }
+    .informacoes h3 {
+        font-size: 20px;
+    }
+    .informacoes span {
+        font-size: 18px;
+    }
+    .receita-1 p {
+        font-size: 20px;
+    }
+    .ingredientes h2 {
+        font-size: 23px;
+    }
+    .lista-ingredientes ul {
+        width: 100%;
+    }
+    .modo-preparo  {
+        width: 100%;
+    }
+    .modo-preparo li {
+        list-style-type: none;
+    }
+    .texto-footer p {
+        font-size: 18px;
+    }
+}
